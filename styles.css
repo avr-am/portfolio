@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    margin: 0;
+    /*background: #141E30;  
+    background: -webkit-linear-gradient(to top, #243B55, #13223d); 
+    background: linear-gradient(to top, #243B55, #141E30); */
+    background: url(./resources/img/fonts/4034743945_6a06627a03_b.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+nav {
+  text-align: center;
+  background-color:#000a1d;
+}
+.navegation {
+      color: white;
+      text-decoration: none;
+      font-family: Roboto, sans-serif;
+      font-size: 30px;
+      cursor: pointer;
+      padding: 5px;
+      background-color: #000a1d;
+      border-radius: 100px;
+
+}
+
+.navegation:hover {
+  color: black;
+  background-color: white;
+  font-size: 30px;
+}
+.box {
+  /*background-color: #000000;*/
+  border-radius: 100px;
+  display: inline-block;
+  padding: 15px;
+  margin: 0px 125px;
+  cursor: pointer;
+  transition: .7s;
+ 
+
+
+}
+.box:hover {
+  background-color: white;
+  padding: 5px;
+}
+hr {
+  border: solid 2px white;
+  align-items: flex-end;
+  
+}
+h2 {
+  color: white;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+/*
+.photo {
+  text-align: center;
+  margin: 154px;
+  display: block;
+  padding: 1px;
+  
+}
+*/
+.profile {
+  
+  border-radius: 100%;
+  width: 230px;
+  height: 230px;
+  vertical-align: middle;
+  font-family: Roboto, sans-serif;
+  color: white;
+  
+
+}
+
+
+.home {
+  color: white;
+  /*text-align: center;*/
+  margin:154px;
+  font-family: Roboto, sans-serif;
+  font-size: 25px;
+  /*display:block;*/
+  
+
+
+}
+
+.presentation {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header {
+    margin: 0px;
+    padding: 15px;
+    overflow: hidden;
+    display: flex;
+    font-family: "Barlow", sans-serif;
+    justify-content: center;
+    align-items: center;
+   
+     
+    
+   
+  }
+
+  .skills {
+    padding: 100px;
+    width: 500;
+    height: 500;
+
+
+  }
+
+  .image{
+    border-radius: 100px;
+    width: 130px;
+    height: 130px;
+  }
+
+  .oDiv {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+ 
+
+  .p1 {
+    color: white;
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    font-size: larger;
+  }
+
+
+
+  .social {
+    border-radius: 100px;
+    width: 130px;
+    height: 130px;
+    padding: 20px 90px;
+  }
+  .container {
+    /*width: 100%;
+    height: 100vh;*/
+   
+    display: grid;
+    place-items: center;
+      
+}
+
+.text {
+    white-space: nowrap;
+    border-right: 3px solid white;
+    width: 36ch;
+    overflow: hidden;
+    font-size: 1.5rem;
+    color: #fff;
+    animation: texto 5s infinite steps(30), cursor .5s ;
+    text-align: center;
+}
+
+@keyframes texto {0% {width: 0}}
+@keyframes cursor {50% {border-color: transparent}}
+
+
+footer {
+  color: white;
+  background-color: black;
+}
+
+.p2 {
+  margin: 0;
+  text-align: center;
+}

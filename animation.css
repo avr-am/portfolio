@@ -7,9 +7,9 @@ header {
     overflow: hidden;
     display: flex;
     font-family: "Barlow", sans-serif;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    background-color:  #000a1d;
+    background-color:  black;
   
 
     
@@ -22,8 +22,9 @@ header {
   .glitch {
     position: relative;
     color: white;
-    font-size: 45px;
-    background-color:  #000a1d;
+    font-size: 55px;
+    
+    
     }
   
   .line:not(:first-child) {

@@ -12,16 +12,15 @@ body {
 }
 nav {
   text-align: center;
-  background-color:#000a1d;
+  
 }
 .navegation {
       color: white;
       text-decoration: none;
       font-family: Roboto, sans-serif;
-      font-size: 30px;
+      font-size: 23px;
       cursor: pointer;
       padding: 5px;
-      background-color: #000a1d;
       border-radius: 100px;
 
 }
@@ -29,14 +28,14 @@ nav {
 .navegation:hover {
   color: black;
   background-color: white;
-  font-size: 30px;
+  font-size: 23px;
 }
 .box {
   /*background-color: #000000;*/
   border-radius: 100px;
   display: inline-block;
   padding: 15px;
-  margin: 0px 125px;
+  margin: 0px 99px;
   cursor: pointer;
   transition: .7s;
  
@@ -76,8 +75,11 @@ h2 {
   vertical-align: middle;
   font-family: Roboto, sans-serif;
   color: white;
-  
+  border: 1px solid black;
+}
 
+.profile:hover {
+  border: 1px solid white;
 }
 
 
@@ -99,7 +101,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-header {
+/*header {
     margin: 0px;
     padding: 15px;
     overflow: hidden;
@@ -111,7 +113,7 @@ header {
      
     
    
-  }
+  }*/
 
   .skills {
     padding: 100px;
@@ -131,6 +133,7 @@ header {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
+  
   }
  
 
@@ -182,3 +185,5 @@ footer {
   margin: 0;
   text-align: center;
 }
+
+
